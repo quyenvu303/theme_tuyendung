@@ -1,0 +1,137 @@
+:root{
+    /* Define font */
+    --bs-font-sans-serif: "Roboto", sans-serif;
+
+    /* Breadcrumb Drivers */
+    --bs-breadcrumb-divider: url("data:image/svg+xml,%0A%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Chevron right'%3E%3Cpath id='Icon' d='M9 18L15 12L9 6' stroke='%23222426' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/g%3E%3C/svg%3E%0A");
+
+    /* Define colors */
+    /* red */
+    --idc-red-1: #EE0033;
+    --idc-red-2: #C4132B;
+    --idc-red-3: #FCD9DB;
+    --idc-red-4: #FEF5F6;
+    --idc-red-5: #F10000;
+    --idc-red-6: #D9002E;
+
+    /* white */
+    --idc-white: #FFFFFF;
+    --idc-white-1: #F7F7F7;
+
+    /* gray */
+    --idc-gray-1: #B5B4B4;
+    --idc-gray-2: #C8C8C7;
+    --idc-gray-3: #F2F2F2;
+    --idc-gray-4: #DDDDDD;
+    --idc-gray-5: #44494D;
+
+    /* black */
+    --idc-black-1: #222426;
+    --idc-black-2: #25324B;
+    --idc-black-3: #515B6F;
+    --idc-black-4: #202430;
+
+    /* blue */
+    --idc-blue-1: #0077B6;
+    --idc-blue-2: #377FEB;
+    --idc-blue-3: #AFCCF7;
+    --idc-blue-4: #5F99EF;
+    --idc-blue-5: #F3F8FE;
+
+    /* green */
+    --idc-green-1: #65BC33;
+    --idc-green-2: #3EAB00;
+    --idc-green-3: #D8EECC;
+
+    /* yellow */
+    --idc-yellow-1: #FFCB33;
+    --idc-yellow-2: #FFBE00;
+    --idc-yellow-3: #FFFCF3;
+
+    /* Variable responsive */
+    /* Mobile */
+
+    /* spacing */
+    --spacing-sm: 12px;
+    --spacing-md: 16px;
+    --spacing-lg: 24px;
+    --spacing-xl: 32px;
+    --spacing-2xs: 4px;
+    --spacing-3xs: 2px;
+    --spacing-xs: 8px;
+
+    /* border radius */
+    --border-radius-sm: 4px;
+    --border-radius-lg: 16px;
+
+    /* border width */
+    --border-width-md: 2px;
+
+    /* font size */
+    --font-size-sm: 12px;
+    --font-size-md: 16px;
+    --font-size-lg: 20px;
+
+    /* line height */
+    --line-height-sm: 20px;
+    --line-height-lg: 32px;
+    --line-height-h1: 72px;
+
+    /* Font size - Body */
+    --fs-sm: 10px;
+    --fs-sub: 12px;
+    --fs-md: 14px;
+    --fs-lg: 18px;
+
+    /* Font size - Heading */
+    --fs-h1: 36px;
+    --fs-h2: 32px;
+    --fs-h3: 28px;
+    --fs-h4: 24px;
+    --fs-h5: 20px;
+    --fs-h6: 18px;
+
+    /* Line Height - Body */
+    --lh-xs: 16px;
+    --lh-sm: 20px;
+    --lh-md: 22px;
+    --lh-lg: 28px;
+
+    /* Line Height - Heading */
+    --lh-h1: 44px;
+    --lh-h2: 36px;
+    --lh-h3: 32px;
+    --lh-h4: 28px;
+    --lh-h5: 24px;
+    --lh-h6: 20px;
+
+    /* Pragraph spacing - Body */
+    --ps-xs: 12px;
+    --ps-sub: 12px;
+    --ps-md: 16px;
+    --ps-lg: 18px;
+
+    /* Pragraph spacing - Heading */
+    --ps-h1: 44px;
+    --ps-h2: 36px;
+    --ps-h3: 32px;
+    --ps-h4: 28px;
+    --ps-h5: 24px;
+    --ps-h6: 20px;
+
+    /* Spacing */
+    --s-none: 0px;
+    --s-3xs: 2px;
+    --s-2xs: 4px;
+    --s-xs: 8px;
+    --s-sm: 12px;
+    --s-md: 16px;
+    --s-lg: 24px;
+    --s-xl: 32px;
+    --s-2xl: 48px;
+    --s-3xl: 60px;
+
+    /* Size Icon */
+    --s-icon: 16px;
+    --img-size: 32px;
+}

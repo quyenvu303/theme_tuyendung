@@ -1,0 +1,1062 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IDC</title>
+
+    <!-- Bootstrap 5 -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+
+    <!-- Embed fonts-->
+    <link rel="stylesheet" href="./assets/fonts/stylesheet.css" />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <section class="container-fluid header-nav header-nav__desktop">
+            <div class="row align-items-center">
+                <div class="col-xxl-2 col-sm order-xxl-1 order-sm-2">
+                    <div class="logo">
+                        <img src="./assets/img/logo.png" alt="IDC Logo" width="118" />
+                    </div>
+                </div>
+
+                <div class="col-xxl col-sm-auto order-xxl-2 order-sm-1">
+                    <nav class="navbar navbar-expand-xxl">
+                        <div class="container-fluid">
+                            <button class="navbar-toggler border-0 p-0" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#menuNavbar" aria-controls="menuNavbar" aria-label="Toggle navigation">
+
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M2.5 10H17.5M2.5 5H17.5M2.5 15H17.5" stroke="#222426" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </button>
+                            <div class="offcanvas offcanvas-custom offcanvas-start" tabindex="-1" id="menuNavbar"
+                                aria-labelledby="offcanvasNavbarLabel">
+                                <div class="offcanvas-body justify-content-center">
+                                    <ul class="navbar-nav navbar-idc">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">
+                                                <h6>Việc làm</h6>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">
+                                                <h6>Đãi ngộ</h6>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">
+                                                <h6>Về Viettel IDC</h6>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">
+                                                <h6>Lý do chọn Viettel IDC</h6>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">
+                                                <h6>Liên hệ</h6>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+
+                <div class="col-auto order-xxl-3 order-sm-3">
+                    <div class="btn-group-nav row row-cols-xxl-2">
+                        <div class="col">
+                            <button class="btn btn-transperent btn-outline-primary btn-unarrow">Đăng nhập</button>
+                        </div>
+                        <div class="col flex-grow-1 btn-group-nav__register">
+                            <button class="btn btn-primary btn-unarrow">Đăng ký</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container-fluid header-nav header-nav__mobile">
+            <div class="row row-cols-3 align-items-center justify-content-between">
+                <div class="col">
+                    <div class="row row-cols-2">
+                        <div class="col">
+                            <nav class="navbar navbar-expand-xxl">
+                                <div class="container-fluid">
+                                    <button class="navbar-toggler border-0 p-0" type="button" data-bs-toggle="offcanvas"
+                                        data-bs-target="#menuNavbarMobile" aria-controls="menuNavbarMobile"
+                                        aria-label="Toggle navigation">
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M2.5 10H17.5M2.5 5H17.5M2.5 15H17.5" stroke="#222426"
+                                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </button>
+                                    <div class="offcanvas offcanvas-custom offcanvas-start" tabindex="-1"
+                                        id="menuNavbarMobile" aria-labelledby="offcanvasNavbarLabel">
+                                        <div class="offcanvas-body position-relative">
+                                            <ul class="navbar-nav navbar-idc">
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">
+                                                        <h6>Việc làm</h6>
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">
+                                                        <h6>Đãi ngộ</h6>
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">
+                                                        <h6>Về Viettel IDC</h6>
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">
+                                                        <h6>Lý do chọn Viettel IDC</h6>
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">
+                                                        <h6>Liên hệ</h6>
+                                                    </a>
+                                                </li>
+                                            </ul>
+
+                                            <section
+                                                class="menuNavbarMobile__btns--logged position-absolute bottom-0 start-50 translate-middle-x mb-4">
+                                                <button class="btn btn-outline-primary btn-unarrow mb-2">Đăng
+                                                    nhập</button>
+                                                <button class="btn btn-primary btn-unarrow w-100">Đăng ký</button>
+                                                <button class="btn btn-outline-secondary btn-unarrow w-100">Đăng
+                                                    xuất</button>
+                                            </section>
+                                        </div>
+                                    </div>
+                                </div>
+                            </nav>
+                        </div>
+
+                        <div class="col">
+                            <div class="logo">
+                                <img src="./assets/img/logo.png" alt="IDC Logo" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="btn-group-nav row align-items-center gx-0">
+                        <div class="col text-center">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.15333 14C9.03613 14.2021 8.86789 14.3698 8.66548 14.4864C8.46307 14.603 8.23359 14.6643 8 14.6643C7.76641 14.6643 7.53693 14.603 7.33452 14.4864C7.1321 14.3698 6.96387 14.2021 6.84667 14M12 5.33337C12 4.27251 11.5786 3.25509 10.8284 2.50495C10.0783 1.7548 9.06087 1.33337 8 1.33337C6.93913 1.33337 5.92172 1.7548 5.17157 2.50495C4.42143 3.25509 4 4.27251 4 5.33337C4 10 2 11.3334 2 11.3334H14C14 11.3334 12 10 12 5.33337Z"
+                                    stroke="#1E1E1E" stroke-width="1.6" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <svg width="1" height="48" class="col" viewBox="0 0 1 48" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <line x1="0.5" y1="1.93721e-08" x2="0.499998" y2="48" stroke="#C8C8C7" />
+                        </svg>
+
+                        <div class="col text-center">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" data-bs-toggle="modal"
+                                data-bs-target="#loginMobileModal" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M13.3334 14V12.6667C13.3334 11.9594 13.0524 11.2811 12.5523 10.781C12.0522 10.281 11.3739 10 10.6667 10H5.33335C4.62611 10 3.94783 10.281 3.44774 10.781C2.94764 11.2811 2.66669 11.9594 2.66669 12.6667V14M10.6667 4.66667C10.6667 6.13943 9.47278 7.33333 8.00002 7.33333C6.52726 7.33333 5.33335 6.13943 5.33335 4.66667C5.33335 3.19391 6.52726 2 8.00002 2C9.47278 2 10.6667 3.19391 10.6667 4.66667Z"
+                                    stroke="#1E1E1E" stroke-width="1.6" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="header-section">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-12 col-sm-9 offset-sm-2 py-custom-6">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item breadcrumb-item-home"><a href="#">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Việc làm</li>
+                            </ol>
+                        </nav>
+
+                        <div class="header-section-content">
+                            <div class="header-section-content__first header-section-content__first--desktop">
+                                <div class="row row-cols-1 row-cols-lg-2">
+                                    <div class="col">
+                                        <h1 class="text-lg-end text-center">Khám phá công việc</h1>
+                                    </div>
+                                    <div class="col ps-0">
+                                        <h1 class="text-lg-start text-center">dành cho bạn</h1>
+                                        <div class="text-lg-start mt-lg-2 mt-3">
+                                            <img src="./assets/img/vector-signature.svg" alt="signature" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <p class="col">Kiến tạo tương lai của bản thân cùng Viettel IDC và làm chủ công nghệ
+                                        với các dự án
+                                        hấp dẫn</p>
+                                </div>
+                            </div>
+
+                            <div class="header-section-content__first header-section-content__first--mobile">
+                                <div class="row">
+                                    <div class="col">
+                                        <h1 class="text-center">Khám phá công việc <span>dành cho bạn</span></h1>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <img src="./assets/img/vector-signature.svg" alt="signature"
+                                            class="text-center" />
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <p class="col">Kiến tạo tương lai của bản thân cùng Viettel IDC và làm chủ công nghệ
+                                        với các dự án
+                                        hấp dẫn</p>
+                                </div>
+                            </div>
+
+                            <div class="hd-st-content-last">
+                                <div class="group-search">
+                                    <div class="row align-items-center gy-3">
+                                        <div class="col-12 col-lg">
+                                            <div class="input-group input-search">
+                                                <span class="input-group-text" id="addon-wrapping">
+                                                    <img src="./assets/img/search.svg" alt="Search icon" />
+                                                </span>
+                                                <div class="input-search-sub">
+                                                    <input type="text" class="form-control" placeholder="search"
+                                                        aria-label="Username" aria-describedby="addon-wrapping" />
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 col-lg">
+                                            <div class="input-group input-search">
+                                                <span class="input-group-text" id="addon-wrapping">
+                                                    <img src="./assets/img/location.svg" alt="Location icon" />
+                                                </span>
+                                                <div class="input-search-sub">
+                                                    <div class="tag-list">
+                                                        <span class="tag tag-lg tag-secondary">
+                                                            <span>Label</span>
+                                                            <svg width="16" height="14" viewBox="0 0 16 16" fill="none"
+                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                <g id="X">
+                                                                    <path id="Icon" d="M12 4L4 12M4 4L12 12"
+                                                                        stroke-linecap="round"
+                                                                        stroke-linejoin="round" />
+                                                                </g>
+                                                            </svg>
+                                                        </span>
+                                                    </div>
+                                                    <input type="text" class="form-control" placeholder="search"
+                                                        aria-label="Username" aria-describedby="addon-wrapping" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-lg-auto">
+                                            <button class="btn btn-lg btn-primary btn-unarrow mx-auto">Tìm
+                                                kiếm</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <p class="mb-lg-4">Ví dụ : UI Designer, UX Researcher, Android, Admin</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <!-- End header -->
+    <!-- Content -->
+    <main>
+        <div class="container-fluid main-content">
+            <!-- Job Detail block 1 -->
+            <div class="row my-5">
+                <!-- Description left Job -->
+                <div class="col">
+                    <!-- Description Job -->
+                    <div class="row row-cols-1">
+                        <div class="col">
+                            <h4>Mô tả công việc</h4>
+                        </div>
+                        <div class="col">
+                            <section class="des-job">
+                                <span>1. Marketing và tổ chức sự kiện:</span>
+                                <ul class="mt-2">
+                                    <li>Xây dựng kế hoạch, ngân sách cho các hoạt động truyền thông MKT.</li>
+                                    <li>Lập kế hoạch và tổ chức thực hiện các sự kiện của Chi nhánh, Công ty và sự kiện
+                                        kết hợp với đối tác.</li>
+                                    <li>Xây dựng content truyền thông trên các nền tảng (tin bài, hình ảnh….) theo chiến
+                                        lược kinh doanh của Chi nhánh.</li>
+                                </ul>
+                            </section>
+
+                            <section class="des-job">
+                                <span>2. Hoạt động truyền thông nội bộ:</span>
+                                <ul class="mt-2">
+                                    <li>Lên ý tưởng và tổ chức các chương trình nội bộ, các hoạt động tập thể: các ngày
+                                        lễ, các hội chơi, teambuilding, ... của Chi nhánh
+                                    </li>
+                                    <li>Tham gia tổ chức các sự kiện truyền thông của Công ty, các hoạt động xã hội và
+                                        tham gia các hoạt động PR chung khác.</li>
+                                    <li>Phụ trách biên tập các ấn phẩm nội bộ, các tài liệu, hướng dẫn truyền thông nhằm
+                                        nhằm gia tăng tinh thần tự hào, nâng cao kiến thức về nhận diện, phát triển
+                                        thương hiệu cho CBNV và giao tiếp với khách hàng, đối tác,...</li>
+                                </ul>
+                            </section>
+                        </div>
+                    </div>
+                    <!-- End Description Job -->
+                    <!-- Requirement Job -->
+                    <div class="row row-cols-1">
+                        <div class="col">
+                            <h4>Yêu cầu công việc</h4>
+                        </div>
+                        <div class="col">
+                            <ul class="des-com-job mt-2">
+                                <li>Tốt nghiệp Đại học chuyên ngành Marketing, Truyền thông, Báo chí hoặc các ngành liên
+                                    quan,...</li>
+                                <li>Từ 1-2 năm kinh nghiệm trở lên lĩnh vực PR, truyền thông, sự kiện,..</li>
+                                <li>Tiếng Anh Toeci 600 hoặc tương đương.</li>
+                                <li>Có khả năng viết content & kỹ năng thiết kế cơ bản.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- End Requirement Job -->
+                    <!-- Skill soft -->
+                    <div class="row row-cols-1">
+                        <div class="col">
+                            <h4>Yêu cầu kĩ năng mềm</h4>
+                        </div>
+                        <div class="col">
+                            <ul class="des-com-job mt-2">
+                                <li>Có khả năng kết nối, chủ động trong việc điều phối, triển khai công việc</li>
+                                <li>Nhiệt tình, năng động, sáng tạo yêu thích các hoạt động xã hội, tập thể</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- End Skill soft -->
+                    <!-- Skill advantages -->
+                    <div class="row row-cols-1">
+                        <div class="col">
+                            <h4>Kĩ năng lợi thế</h4>
+                        </div>
+                        <div class="col">
+                            <ul class="des-com-job mt-2">
+                                <li>Có kinh nghiệm tương tự trong công ty CNTT với các khách hàng B2B là điểm cộng</li>
+                                <li>Khả năng giao tiếp tiếng anh tốt</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- End Skill advantages -->
+                </div>
+                <!-- End Description left Job -->
+
+                <!-- Description right Job -->
+                <div class="col">
+                    <!-- Info Job -->
+                    <div class="row row-cols-1 gy-3 pb-4">
+                        <div class="col">
+                            <h4>Thông tin tuyển dụng</h4>
+                        </div>
+
+                        <div class="col">
+                            <div class="row">
+                                <div class="col">Hạn chót nhận hồ sơ</div>
+                                <div class="col fw-semibold"><span>12/06/2025</span></div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="row">
+                                <div class="col">Thời điểm đăng</div>
+                                <div class="col fw-semibold"><span>18/02/2025</span></div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="row">
+                                <div class="col">Hình Thức</div>
+                                <div class="col fw-semibold"><span>Full-Time</span></div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="row">
+                                <div class="col">Mức Lương</div>
+                                <div class="col fw-semibold"><span>Lương thỏa thuận</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Info Job -->
+
+                    <!-- Category Job tag -->
+                    <div class="row row-cols-1 gy-3 pb-3">
+                        <div class="col">
+                            <h4>Danh mục</h4>
+                        </div>
+                        <div class="col">
+                            <span class="job-tag job-tag-success mb-2" data-bs-toggle="tooltip" data-bs-placement="top"
+                                title="Tooltip on top">success</span>
+                            <span class="job-tag job-tag-success mb-2" data-bs-toggle="tooltip" data-bs-placement="top"
+                                title="Tooltip on top">success</span>
+                        </div>
+                    </div>
+                    <!-- End Category Job tag -->
+
+                    <!-- Skill require -->
+                    <div class="row row-cols-1">
+                        <div class="col">
+                            <h4>Kĩ năng yêu cầu</h4>
+                        </div>
+                        <div class="col">
+                            <span class="tag tag-lg tag-secondary">
+                                <span>Label</span>
+                            </span>
+                            <span class="tag tag-lg tag-secondary">
+                                <span>Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</span>
+                            </span>
+                            <span class="tag tag-lg tag-secondary">
+                                <span>Label</span>
+                            </span>
+                            <span class="tag tag-lg tag-secondary">
+                                <span>Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</span>
+                            </span>
+                        </div>
+                    </div>
+                    <!-- End Skill require -->
+
+                </div>
+                <!-- Description right Job -->
+            </div>
+            <!-- Job Detail end block 1 -->
+
+            <!-- Job Detail end block 2 -->
+            <div class="row my-5">
+                <div class="col">
+                    <!-- heading -->
+                    <div class="row row-cols-1 pb-3">
+                        <div class="col">
+                            <h4>Perks & Benefits</h4>
+                        </div>
+                        <div class="col">This job comes with several perks and benefits</div>
+                    </div>
+                    <!-- end heading -->
+
+                    <!-- content -->
+                    <div class="row pb-4">
+                        <div class="col-4">
+                            <div class="row">
+                                <div class="col">
+                                    <img src="./assets/img/benefit-job/heal.svg" alt="heal" />
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                    <h4>Full Healthcare</h4>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                    <p>We believe in thriving communities and that starts with our team being happy and
+                                        healthy.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-4">
+                            <div class="row">
+                                <div class="col">
+                                    <img src="./assets/img/benefit-job/heal.svg" alt="heal" />
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                    <h4>Full Healthcare</h4>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                    <p>We believe in thriving communities and that starts with our team being happy and
+                                        healthy.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-4">
+                            <div class="row">
+                                <div class="col">
+                                    <img src="./assets/img/benefit-job/heal.svg" alt="heal" />
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                    <h4>Full Healthcare</h4>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                    <p>We believe in thriving communities and that starts with our team being happy and
+                                        healthy.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="row">
+                                <div class="col">
+                                    <img src="./assets/img/benefit-job/heal.svg" alt="heal" />
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                    <h4>Full Healthcare</h4>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                    <p>We believe in thriving communities and that starts with our team being happy and
+                                        healthy.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-4">
+                            <div class="row">
+                                <div class="col">
+                                    <img src="./assets/img/benefit-job/heal.svg" alt="heal" />
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                    <h4>Full Healthcare</h4>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                    <p>We believe in thriving communities and that starts with our team being happy and
+                                        healthy.</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <!-- end content -->
+                </div>
+            </div>
+            <!-- Job Detail end block 2 -->
+
+            <div class="row">
+                <div class="col job-detail-bottom">
+                    <!-- Job Detail end block 3 -->
+                    <div class="row gx-3">
+                        <div class="col-8">
+                            <img src="assets/img/jd-1.jpg" alt="jd-1" class="w-100" />
+                        </div>
+                        <div class="col-4">
+                            <div class="row h-50">
+                                <div class="col">
+                                    <img src="assets/img/jd-2.jpg" alt="jd-2" class="w-100" />
+                                </div>
+                            </div>
+
+                            <div class="row h-50">
+                                <div class="col">
+                                    <img src="assets/img/jd-3.jpg" alt="jd-3" class="w-100 h-100" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Job Detail end block 3 -->
+
+                    <!-- Job Detail end block 4 -->
+                    <div class="row row-cols-1 my-3">
+                        <div class="col">
+                            <div class="row">
+                                <div class="col">
+                                    <h2>Vị trí tương tự</h2>
+                                </div>
+                                <div class="col text-end"><a href="#" class="text-decoration-none">Xem tất cả công
+                                        việc</a></div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="row gx-3">
+                                <div class="col">
+                                    <section class="job-card row">
+                                        <div class="job-c-logo col-1">
+                                            <img src="./assets/img/jobs/marketing.png" alt="marketing image" />
+                                        </div>
+                                        <!-- job card detail -->
+                                        <div class="job-c-detail col-11 ps-lg">
+                                            <div class="row">
+                                                <p class="col job-c-title col">Marketing</p>
+                                            </div>
+                                            <div class="row my-sm g-0">
+                                                <div class="col job-c-param">
+                                                    <div class="row">
+                                                        <div class="job-c-param-f col">
+                                                            <div class="row g-2 align-items-center">
+                                                                <p class="mb-0 col-auto">
+                                                                    Pháp Vân
+                                                                </p>
+                                                                <svg width="4" height="5" class="col-auto"
+                                                                    viewBox="0 0 4 5" fill="none"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <circle cx="2" cy="2.5" r="2" fill="#44494D" />
+                                                                </svg>
+                                                                <p class="mb-0 col-auto">Hà Nội</p>
+                                                            </div>
+                                                            <div class="row">
+                                                                <p class="job-c-text col text-nowrap">Mức
+                                                                    Lương:<span>Lương thỏa
+                                                                        thuận</span></p>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="job-c-param-s col">
+                                                            <p class="job-c-text">Số lượng tuyển:<span>5</span></p>
+                                                            <p class="job-c-text">Ngày đăng:<span>10/02/2025</span></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col job-c-btn">
+                                                    <span class="job-tag job-tag-success" data-bs-toggle="tooltip"
+                                                        data-bs-placement="top" title="Tooltip on top">Full-Time</span>
+                                                    <svg width="1" height="34" viewBox="0 0 1 34" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <rect width="1" height="34" fill="#C8C8C7" />
+                                                    </svg>
+                                                    <span class="job-tag job-tag-warning" data-bs-toggle="tooltip"
+                                                        data-bs-placement="top" title="Tooltip on top">Marketing</span>
+                                                    <span class="job-tag job-tag-danger" data-bs-toggle="tooltip"
+                                                        data-bs-placement="top" title="Tooltip on top">Design</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- end job card detail -->
+                                    </section>
+                                </div>
+                                <div class="col">
+                                    <section class="job-card row">
+                                        <div class="job-c-logo col-1">
+                                            <img src="./assets/img/jobs/marketing.png" alt="marketing image" />
+                                        </div>
+                                        <!-- job card detail -->
+                                        <div class="job-c-detail col-11 ps-lg">
+                                            <div class="row">
+                                                <p class="col job-c-title col">Marketing</p>
+                                            </div>
+                                            <div class="row my-sm g-0">
+                                                <div class="col job-c-param">
+                                                    <div class="row">
+                                                        <div class="job-c-param-f col">
+                                                            <div class="row g-2 align-items-center">
+                                                                <p class="mb-0 col-auto">
+                                                                    Pháp Vân
+                                                                </p>
+                                                                <svg width="4" height="5" class="col-auto"
+                                                                    viewBox="0 0 4 5" fill="none"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <circle cx="2" cy="2.5" r="2" fill="#44494D" />
+                                                                </svg>
+                                                                <p class="mb-0 col-auto">Hà Nội</p>
+                                                            </div>
+                                                            <div class="row">
+                                                                <p class="job-c-text col text-nowrap">Mức
+                                                                    Lương:<span>Lương thỏa
+                                                                        thuận</span></p>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="job-c-param-s col">
+                                                            <p class="job-c-text">Số lượng tuyển:<span>5</span></p>
+                                                            <p class="job-c-text">Ngày đăng:<span>10/02/2025</span></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col job-c-btn">
+                                                    <span class="job-tag job-tag-success" data-bs-toggle="tooltip"
+                                                        data-bs-placement="top" title="Tooltip on top">Full-Time</span>
+                                                    <svg width="1" height="34" viewBox="0 0 1 34" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <rect width="1" height="34" fill="#C8C8C7" />
+                                                    </svg>
+                                                    <span class="job-tag job-tag-warning" data-bs-toggle="tooltip"
+                                                        data-bs-placement="top" title="Tooltip on top">Marketing</span>
+                                                    <span class="job-tag job-tag-danger" data-bs-toggle="tooltip"
+                                                        data-bs-placement="top" title="Tooltip on top">Design</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- end job card detail -->
+                                    </section>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Job Detail end block 4 -->
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- End Container -->
+    <!-- Footer -->
+    <footer>
+        <section class="container">
+            <div class="footer-top row row-cols-lg-2 row-cols-1">
+                <div class="ft-left col">
+                    <div class="row row-cols-1 gy-4 pb-4">
+                        <div class="col ft-left__logo text-center text-lg-start">
+                            <img src="./assets/img/logo_footer.svg" alt="logo">
+                        </div>
+                        <div class="col ft-left__info text-lg-start">
+                            <p class="mb-0">Hotline: 1800 8088</p>
+                            <p class="mb-0">Email: support@viettelidc.com.vn</p>
+                        </div>
+                        <div class="col footer-top__icons text-lg-start">
+                            <img src="assets/img/facebook.svg" alt="facebook" />
+                            <img src="assets/img/instagram.svg" alt="instagram" />
+                            <img src="assets/img/twiter.svg" alt="twiter" />
+                            <img src="assets/img/zalo.svg" alt="zalo">
+                            <img src="assets/img/telegram.svg" alt="telegram" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="row row-cols-1 g-lg-0 g-sm-2 row-cols-lg-2 row-cols-lg-4 d-none d-sm-flex">
+                        <div class="col ft-right-col">
+                            <p>GIỚI THIỆU</p>
+                            <a href="#" class="text-decoration-none">Dẫn dắt ngành dữ liệu và điện toán đám mây</a>
+                            <a href="#" class="text-decoration-none">Khám phá giá trị của chính bạn</a>
+                            <a href="#" class="text-decoration-none">Thưởng xứng đáng cho những nỗ lực xứng tầm</a>
+                            <a href="#" class="text-decoration-none">Cộng hưởng sức mạnh đội nhóm</a>
+                        </div>
+                        <div class="col ft-right-col">
+                            <p>Site Map</p>
+                            <a href="#" class="text-decoration-none">Việc làm</a>
+                            <a href="#" class="text-decoration-none">Đãi ngộ</a>
+                            <a href="#" class="text-decoration-none">Về Viettel IDC</a>
+                            <a href="#" class="text-decoration-none">Lý do chọn Viettel IDC</a>
+                            <a href="#" class="text-decoration-none">Liên hệ</a>
+                        </div>
+                        <div class="col ft-right-col">
+                            <p>TÍNH NĂNG</p>
+                            <a href="#" class="text-decoration-none">Việc làm</a>
+                            <a href="#" class="text-decoration-none">Đãi ngộ</a>
+                            <a href="#" class="text-decoration-none">Về Viettel IDC</a>
+                            <a href="#" class="text-decoration-none">Cơ hội nghề nghiệp</a>
+                            <a href="#" class="text-decoration-none">Liên hệ</a>
+                        </div>
+                        <div class="col ft-right-col">
+                            <p>TÌM KIẾM VIỆC LÀM</p>
+                            <a href="#" class="text-decoration-none">Việc làm theo địa điểm</a>
+                            <a href="#" class="text-decoration-none">Việc làm theo ngành nghề</a>
+                            <a href="#" class="text-decoration-none">Liên hệ</a>
+                        </div>
+                    </div>
+
+                    <div class="row row-cols-1 g-lg-0 row-cols-lg-4 d-sm-none ft-right--mobile">
+                        <div class="col ft-right-col">
+                            <div class="dropdown-idc dropdown-idc--close">
+                                <button class="btn-dropdown" onclick="toggleDropdown(this)">
+                                    <span>GIỚI THIỆU</span>
+
+                                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8 12L16 20L24 12" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+
+                                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g id="Chevron up">
+                                            <path id="Icon" d="M24 20L16 12L8 20" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </g>
+                                    </svg>
+                                </button>
+                                <ul class="dropdown-list">
+                                    <li>
+                                        <div class="form-check">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                Dẫn dắt ngành dữ liệu và điện toán đám mây
+                                            </label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="form-check">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                Khám phá giá trị của chính bạn
+                                            </label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="form-check">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                Thưởng xứng đáng cho những nỗ lực xứng tầm
+                                            </label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="form-check">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                Cộng hưởng sức mạnh đội nhóm
+                                            </label>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="dropdown-idc dropdown-idc--close">
+                                <button class="btn-dropdown" onclick="toggleDropdown(this)">
+                                    <span>Site Map</span>
+
+                                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8 12L16 20L24 12" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+
+                                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g id="Chevron up">
+                                            <path id="Icon" d="M24 20L16 12L8 20" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </g>
+                                    </svg>
+                                </button>
+                                <ul class="dropdown-list">
+                                    <li>
+                                        <div class="form-check">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                Việc làm
+                                            </label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="form-check">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                Về Viettel IDC
+                                            </label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="form-check">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                Lý do chọn Viettel IDC
+                                            </label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="form-check">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                Liên hệ
+                                            </label>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="dropdown-idc dropdown-idc--close">
+                                <button class="btn-dropdown" onclick="toggleDropdown(this)">
+                                    <span>TÍNH NĂNG</span>
+
+                                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8 12L16 20L24 12" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+
+                                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g id="Chevron up">
+                                            <path id="Icon" d="M24 20L16 12L8 20" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </g>
+                                    </svg>
+                                </button>
+                                <ul class="dropdown-list">
+                                    <li>
+                                        <div class="form-check">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                Việc làm
+                                            </label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="form-check">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                Về Viettel IDC
+                                            </label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="form-check">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                Lý do chọn Viettel IDC
+                                            </label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="form-check">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                Liên hệ
+                                            </label>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="dropdown-idc dropdown-idc--close">
+                                <button class="btn-dropdown" onclick="toggleDropdown(this)">
+                                    <span>TÌM KIẾM VIỆC LÀM</span>
+
+                                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8 12L16 20L24 12" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+
+                                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g id="Chevron up">
+                                            <path id="Icon" d="M24 20L16 12L8 20" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </g>
+                                    </svg>
+                                </button>
+                                <ul class="dropdown-list">
+                                    <li>
+                                        <div class="form-check">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                Việc làm theo địa điểm
+                                            </label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="form-check">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                Việc làm theo ngành nghề
+                                            </label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="form-check">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                Liên hệ
+                                            </label>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <svg width="100%" height="1" viewBox="0 0 1360 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="204" width="952" height="1" fill="#C8C8C7" />
+                    </svg>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col footer-bottom">
+                    <div class="row justify-content-between">
+                        <div class="col-auto">
+                            <div class="row row-cols-1 row-cols-sm-auto">
+                                <div class="col">
+                                    <a href="#">Accessibility</a>
+                                </div>
+
+                                <div class="col">
+                                    <a href="#">Cookie Preferences</a>
+                                </div>
+
+                                <div class="col">
+                                    <a href="#">Legal Docs and policies</a>
+                                </div>
+
+                                <div class="col">
+                                    <a href="#">Privacy</a>
+                                </div>
+
+                                <div class="col">
+                                    <a href="#">Terms of use</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <span class="col-lg-auto col-xl-12 footer-bottom__copyright">© 2025 Viettel or its affiliates.
+                            All rights
+                            reserved.</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <div class="modal fade" id="loginMobileModal" tabindex="-1" aria-labelledby="loginMobileModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Footer -->
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

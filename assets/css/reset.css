@@ -1,0 +1,124 @@
+/* button */
+.btn {
+    font-size: var(--fs-lg);
+}
+
+/* space */
+.my-sm {
+    margin: var(--s-sm) 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "BeauSans Pro", sans-serif;
+    color: var(--idc-black-1);
+}
+
+h1 {
+    font-size: var(--fs-h1);
+    line-height: var(--lh-h1);
+}
+
+h2 {
+    font-size: var(--fs-h2);
+    line-height: var(--lh-h2);
+}
+
+h3 {
+    font-size: var(--fs-h3);
+    line-height: var(--lh-h3);
+}
+
+h4 {
+    font-size: var(--fs-h4);
+    line-height: var(--lh-h4);
+}
+
+h5 {
+    font-size: var(--fs-h5);
+    line-height: var(--lh-h5);
+}
+
+h6 {
+    font-size: var(--fs-h6);
+    line-height: var(--lh-h6);
+}
+
+body {
+    color: var(--idc-black-1, #222426);
+    font-size: var(--fs-md);
+}
+
+p {
+    margin-bottom: 0;
+    color: var(--idc-gray-5, #44494D);
+}
+
+a {
+    color: var(--idc-blue-2);
+}
+
+a.text-decoration-none {
+    color: var(--idc-black-1);
+}
+
+label[require] {
+    position: relative;
+}
+
+label[require]::after {
+    content: url("data:image/svg+xml,%3Csvg width='8' height='7' viewBox='0 0 8 7' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M4 3.5L5.5 1M4 3.5L2.5 1M4 3.5L5.5 6M4 3.5L2.5 6M4 3.5H7M4 3.5H1' stroke='%23F10000' stroke-miterlimit='2' stroke-linecap='round'/%3E%3C/svg%3E%0A");
+    position: absolute;
+    top: -8px;
+    right: -10px;
+}
+
+*:focus-visible {
+    box-shadow: none !important;
+    /* disable box-shadow*/
+}
+
+input::placeholder {
+    color: var(--idc-gray-1, #B5B4B4);
+    font-size: var(--font-size-md, 1rem);
+    font-style: normal;
+    font-weight: 400;
+    line-height: var(--lh-md, 1.5rem);
+}
+
+.form-check-input:focus {
+    box-shadow: none;
+    border-color: var(--idc-gray-5);
+}
+
+.pagination {
+    flex-wrap: wrap;
+}
+
+.breadcrumb {
+    margin-bottom: var(--s-xl);
+}
+
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+
+.offcanvas-custom,
+.offcanvas-custom + .offcanvas-backdrop
+{
+    top: 65px !important;
+}
+
+.offcanvas-custom {
+    border-right: none !important;
+}
+
+/* Spacing */
+.px-custom-7 {
+    padding-left: var(--s-sm);
+    padding-right: var(--s-sm);
+}
